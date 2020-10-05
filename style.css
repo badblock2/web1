@@ -11,12 +11,28 @@ a {
     text-decoration: none;
 }
 
-ol {
+.content-menu {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.content-menu ol {
     display: inline;
     font-size: 20px;
 }
 
-.content-menu {
-    display: grid;
-    grid-template-columns: 300px auto;
+.content-menu li {
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    .content-menu {
+        display: block;
+    }
+    .content-menu ol {
+        display: block;
+    }
+    .content-menu li {
+        margin: 0px;
+    }
 }
