@@ -7,6 +7,10 @@ h1 {
     text-align: center;
 }
 
+.title h2 {
+    display: inline;
+}
+
 a {
     text-decoration: none;
 }
